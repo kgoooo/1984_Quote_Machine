@@ -1,0 +1,89 @@
+body {
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    height: 100vh;
+}
+
+
+
+p {
+    margin: 0;
+}
+
+.box {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box-pad {
+    padding-top: 40px;
+}
+
+.container {
+    margin: 0;
+    padding-top: 55px;
+    font-size: 25px;
+    
+}
+
+.quote {
+    font-size: 220%;
+    margin: 0;
+    line-height: 10px;
+    font-weight: 600;
+    margin-top: 5px;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button {
+    color: #0dfaff;
+    float: right;
+    display: inline-block;
+}
+
+strong {
+    font-size: 90%;
+    float: right;
+    padding: 10px;
+}
+
+.line {
+    display: inline-block;    
+}
+
+.head {
+    font-size: 375%;
+    color: #fff;
+    font-weight: 200;
+    text-align: center;
+    padding-top: 40px;
+}
+
+h1:after {
+    display: block;
+    height: 1px;
+    background-color: #9b0000;
+    content: " ";
+    width: 100px;
+    margin: 5px auto 15px auto;
+}
+
+.copy-p {
+    color: #e5e5e5;
+    text-align: center;
+    font-size: 120%;  
+    width: 40%;
+    margin: 10px auto 0 auto;
+}
+
+#quote {
+    margin-top: 40px;
+}
+
+.loc {
+    font-size: 90%;
+}
