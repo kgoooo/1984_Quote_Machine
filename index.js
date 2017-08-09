@@ -44,7 +44,7 @@ var quotes = [
 ];
 // 41 quotes
 
-var quoteNumb = () => Math.floor(Math.random() * 41) +1;
+var quoteNumb = () => Math.floor(Math.random() * 41);
 var num = quoteNumb();
 var quoteInsert = quotes[num][0];
 var locInsert = quotes[num][1];
