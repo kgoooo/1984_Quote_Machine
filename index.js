@@ -53,6 +53,7 @@ var locInsert = quotes[num][1];
 var initialize = () =>{
 	$("#quote").append(quoteInsert);
 	$("#location").append(locInsert);
+	$("#tweet").attr('href', `http://twitter.com/home?status=${quoteInsert}`)
 }
 
 $("#btn").on('click', () => {
@@ -61,6 +62,10 @@ $("#btn").on('click', () => {
 	var newLocIns = quotes[newNum][1];
 	$("#quote").text(newQuoteIns);
 	$("#location").text(newLocIns);
+	$("#tweet").attr('href', `http://twitter.com/home?status=${newQuoteIns}`)
 })
+
+
+
 
 initialize();
